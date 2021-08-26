@@ -1,0 +1,13 @@
+type Order @entity {
+  id: ID!
+  nftAddress: String!
+  tokenId: BigInt!
+  txHash: Bytes!
+  owner: Bytes!
+  buyer: Bytes
+  price: BigInt!
+  blockNumber: BigInt!
+  expiresAt: BigInt!
+  createdAt: BigInt!
+  updatedAt: BigInt!
+}
